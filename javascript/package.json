@@ -1,0 +1,15 @@
+{
+  "name": "algorithm-sample-js",
+  "version": "1.0.0",
+  "description": "Algorithm samples in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

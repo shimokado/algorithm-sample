@@ -1,0 +1,43 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+
+# Editors
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.env
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node.js (JavaScript/TypeScript)
+node_modules/
+dist/
+coverage/
+.npm
+.yarn
+
+# PowerShell
+*.psd1
+!*.psd1
+# Pester
+TestResults.xml
+
+# OS generated files
+Desktop.ini
