@@ -35,6 +35,40 @@
 - [TypeScript](typescript/README.md)
 - [PowerShell](powershell/README.md)
 
+## セットアップ
+
+各言語の実装を試すには、対応するフォルダに移動して環境を構築してください。
+
+### Python
+
+pythonフォルダで仮想環境を構築して利用します。
+
+```bash
+cd python
+
+# 仮想環境の作成
+python -m venv .venv
+
+# 仮想環境の有効化
+# Windows (PowerShell)
+.venv\Scripts\Activate.ps1
+# Windows (Command Prompt)
+.venv\Scripts\activate.bat
+# macOS/Linux
+source .venv/bin/activate
+
+# 依存パッケージのインストール
+pip install -r requirements.txt
+
+# テスト実行
+pytest
+
+# 仮想環境の無効化
+deactivate
+```
+
+**注意**: Python 3.8以上を推奨します。仮想環境を使用することで、システムのPython環境を汚染せずに開発できます。
+
 ## ドキュメント
 - [アルゴリズム概論](docs/algorithms.md)
 - [最大公約数 (GCD)](docs/gcd.md)
